@@ -13,9 +13,6 @@ As a bank account user
 I want to make sure that the deposit was made
 I would like to print the amount deposited  and the date that it was made.
 
-As a bank account user
-I want to make sure that has enough money in my account
-I would like to be able to see the balance of my bank account.
 
 As a bank account user
 I need obtain some money from my account

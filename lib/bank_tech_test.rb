@@ -1,5 +1,5 @@
 class BankAccount
-attr_reader :money
+attr_reader :money, :current_time
   def initialize
     @money = 0
   end
@@ -8,7 +8,10 @@ attr_reader :money
     @money
   end
 def deposit(money)
-  @money = @money + money 
+  @money = @money + money
 end
 
+def print
+  @current_time
+end
 end
