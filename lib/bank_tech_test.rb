@@ -1,6 +1,6 @@
 class BankAccount
 
-  attr_reader :money, :time_date
+  attr_reader :money, :date, :time
 
   def initialize
     @money = 0
@@ -23,5 +23,12 @@ class BankAccount
     def funds_available
       @money = 4
     end
-  
+
+    def print
+      @date = Time.new.strftime("%d/%m/%Y")
+      @time = Time.new.strftime("%k:%M")  
+      @money = 10
+      @money += 10
+      @money
+    end
 end

@@ -34,5 +34,10 @@ it 'show the amount of money existent in the acount'do
     bank_account.funds_available
     expect(bank_account.funds_available).to eq(4)
   end
+  it 'print the time, date and amount deposited' do
+    bank_account = BankAccount.new
+    bank_account.print
+    expect(bank_account).to respond_to(:print)
 
+end
 end
